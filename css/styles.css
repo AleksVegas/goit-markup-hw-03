@@ -4,6 +4,14 @@ body {
   background-color: #ffffff;
 }
 
+.container { 
+max-width: 1440px;
+padding-left: 
+padding-right: 
+margin-left: 156px;
+margin-right: 156px; 
+}
+
 a {
   text-decoration: none;
 }
@@ -11,6 +19,7 @@ a {
 ul {
   list-style: none;
 }
+
 .main-link-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
