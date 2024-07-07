@@ -4,12 +4,24 @@ body {
   background-color: #ffffff;
 }
 
-.container { 
-max-width: 1440px;
-padding-left: 
-padding-right: 
-margin-left: 156px;
-margin-right: 156px; 
+.header-container {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: 332px;
 }
 
 a {
@@ -38,10 +50,18 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  display: flex;
+  margin-right: 76px;
+  margin-left: 156px;
 }
 .main-link:hover,
 .main-link:focus {
   color: #404bbf;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
 }
 
 .section-team {
@@ -54,6 +74,7 @@ ul {
   line-height: 150%;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .link-nav:hover,
@@ -63,6 +84,8 @@ ul {
 
 .mail-tel {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .mail-tel-link {
@@ -81,11 +104,20 @@ ul {
   color: #404bbf;
 }
 
+/*.header-address {
+  display: flex;
+}
+*/
+
+/* FIRST SECTION  */
+
 .main-section {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
 .main-title {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -104,6 +136,11 @@ ul {
   color: #ffffff;
   text-align: center;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .main-button:hover {
@@ -113,6 +150,16 @@ ul {
 .main-button:focus {
   background-color: #404bbf;
 }
+
+/* SECOND SECTION */
+.section-two {
+  padding: 120px 0;
+}
+
+.title-two {
+  margin-bottom: 8px;
+}
+
 .title-header {
   font-weight: 700;
   font-size: 36px;
@@ -121,6 +168,15 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.second-section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.list-sec-section {
+  width: calc((100% - 72px) / 4);
 }
 
 .list {
