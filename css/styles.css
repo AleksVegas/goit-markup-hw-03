@@ -63,6 +63,7 @@ ul {
 .header-list {
   display: flex;
   gap: 40px;
+  padding-left: 0px;
 }
 
 .section-team {
@@ -87,6 +88,7 @@ ul {
   font-style: normal;
   display: flex;
   gap: 40px;
+  padding-left: 0px;
 }
 
 .mail-tel-link {
