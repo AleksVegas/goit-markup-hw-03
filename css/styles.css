@@ -16,7 +16,9 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  
 }
+
 
 .navigation {
   align-items: center;
@@ -51,6 +53,7 @@ ul {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   display: flex;
+   margin-right: 76px
 }
 .main-link:hover,
 .main-link:focus {
@@ -122,6 +125,7 @@ ul {
   letter-spacing: 0.02em;
   color: #ffffff;
   font-weight: 700;
+  margin-left: 405px;
 
 }
 
@@ -140,6 +144,8 @@ ul {
   height: 56px;
   border: none;
   border-radius: 4px;
+  padding: 16px 32px;
+  margin-left: 569px;
 }
 
 .main-button:hover {
@@ -156,6 +162,16 @@ ul {
 }
 
 .title-two {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
   margin-bottom: 8px;
 }
 
