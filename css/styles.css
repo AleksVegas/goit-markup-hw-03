@@ -5,7 +5,7 @@ body {
 }
 
 .header-container {
-  /*border-bottom: 1px solid #e7e9fc;*/
+  border-bottom: 1px solid #e7e9fc;
   display: flex; 
   padding-top: 24px;
   padding-bottom: 24px;
@@ -79,7 +79,6 @@ ul, ol {
 .header-list {
   display: flex;
   gap: 40px;
-  padding-left: 0px;
 }
 
 .section-team {
@@ -92,6 +91,7 @@ ul, ol {
   line-height: 150%;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .link-nav:hover,
